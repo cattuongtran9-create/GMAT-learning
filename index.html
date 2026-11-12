@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="GMAT//LAB — học có hệ thống từ nền tảng đến chuyên sâu, với ví dụ từng bước và bài tập có giải thích.">
+  <meta name="theme-color" content="#1a2b31">
+  <title>GMAT//LAB — Học sâu. Hiểu rõ.</title>
+  <link rel="stylesheet" href="study.css">
+</head>
+<body>
+  <a class="skip-link" href="#main" data-anchor="main">Đến nội dung</a>
+  <aside class="sidebar">
+    <a href="#home" class="brand" aria-label="GMAT LAB — Trang chủ"><span class="brand-symbol">G<span>↗</span></span><span>GMAT<span class="lime">//</span>LAB<small>YOUR SCORE, ENGINEERED</small></span></a>
+    <span class="nav-caption">KHÔNG GIAN HỌC</span>
+    <nav aria-label="Điều hướng chính">
+      <a href="#home" data-nav="home"><span>◈</span> Tổng quan</a>
+      <a href="#roadmap" data-nav="roadmap"><span>↗</span> Mạng lưới bài học</a>
+      <a href="#library" data-nav="library"><span>▤</span> Thư viện bài học</a>
+      <a href="#practice" data-nav="practice"><span>⌁</span> Phòng luyện tập</a>
+      <a href="#review" data-nav="review"><span>↻</span> Sổ lỗi & ôn tập <b id="reviewBadge">0</b></a>
+    </nav>
+    <div class="sidebar-progress"><span class="nav-caption">TIẾN ĐỘ CỦA BẠN</span><strong id="sidebarProgress">0 bài đã học</strong><progress id="courseProgress" value="0" max="100">0%</progress><small>Ghi nhận bài đã đọc và kết quả luyện tập riêng biệt.</small></div>
+    <div class="sidebar-note"><span class="nav-caption">MỘT CÁCH HỌC BỀN VỮNG</span><p>Hiểu vì sao.<br>Tự giải lại.<br>Rồi tăng độ khó.</p><a href="#sources">Nguồn & phạm vi ↗</a></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><span class="breadcrumb">GMAT//LAB <span>/</span> <b id="pageLabel">Tổng quan</b></span><span class="save-state" id="saveState"><i></i> Lưu trên trình duyệt</span></header>
+    <main id="main" tabindex="-1"></main>
+    <footer class="site-footer"><span>GMAT//LAB · Học từ nền tảng đến chuyên sâu</span><a href="#sources">Nội dung tự biên soạn · xem nguồn ↗</a></footer>
+  </div>
+  <div class="toast" role="status" aria-live="polite" id="toast"></div>
+  <input type="file" id="importFile" accept="application/json,.json" hidden>
+  <script src="foundation-data.js"></script>
+  <script src="course-data.js"></script>
+  <script src="deep-quant.js"></script>
+  <script src="deep-verbal.js"></script>
+  <script src="deep-di.js"></script>
+  <script src="study-system.js"></script>
+  <script src="foundation-depth.js"></script>
+  <script src="catalog.js"></script>
+  <script src="study.js"></script>
+  <noscript><p>Vui lòng bật JavaScript để mở bài học và lưu kết quả luyện tập.</p></noscript>
+</body>
+</html>
